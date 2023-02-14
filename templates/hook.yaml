@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: hook-example
-        image: hwchiu/netutils
+        image: lynn0706/netutils
         command:
           - "echo"
           - "pre-hook"
@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
       - name: hook-example
-        image: hwchiu/netutils
+        image: lynn0706/netutils
         command:
           - "echo"
           - "post-hook"
